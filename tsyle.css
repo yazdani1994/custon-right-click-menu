@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  min-height: 100vh;
+}
+
+.conteiner {
+  width: 300px;
+  border-radius: 10px;
+  padding: 15px 10px;
+  background-color: white;
+  box-shadow: #41474b 0px 2px 8px 0px;
+  visibility: hidden;
+  position: absolute;
+}
+
+.conteiner .item {
+  list-style-type: none;
+}
+
+.menu .item {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.menu .item:hover {
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+
+.menu .item i {
+  padding-right: 5px;
+}
+
+.menu .setting {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+  padding-top: 10px;
+}
+
+.menu .share {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu .share .share-menu {
+  position: absolute;
+  left: 270px;
+  width: 150px;
+  box-shadow: #41474b 0px 2px 8px 0px;
+  border-radius: 10px;
+  padding: 10px 5px;
+  visibility: hidden;
+  background-color: white;
+}
+.menu .share:hover .share-menu {
+  visibility: visible;
+}
